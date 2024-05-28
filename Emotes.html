@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/fontsawesome/css/all.min.css">
+    <script type="text/javascript" src="js/jquery-min.js"></script>
+    <script type="text/javascript" src="js/popper.min.js"></script>
+
+    <style>
+        video{
+            margin-top: 1%;
+        }
+
+        body{
+        /* background-image: url(images/Web\ backdrop2.png);
+        background-position-x: center;
+        background-size: 110%; */
+        background-image: url(images/Web\ backdrop2\ film.png);
+        background-position-x: center;
+        background-size: 100%;
+    }
+    </style>
+</head>
+<body>
+    
+    <style>
+        .navbar {
+            height: 100px;
+            background-color: rgb(172, 157, 185);
+        }
+        
+        #offcanvasNavbar {
+            width: 280px;
+            background-color: rgb(236, 228, 236);
+        }
+        
+        .inline {
+            display: inline-block
+        }
+        
+        .center-text {
+            text-align: center;
+            font-family: 'Courier New', Courier, monospace;
+        }
+        
+        .margin-top-20 {
+            margin-top: 20px;
+        }
+
+        #logo{
+            width: 220px;
+        }
+
+        #note{
+            font-size: 80%;
+            margin-bottom: -3%;
+        }
+
+        #pad{
+            padding: 1%;
+        }
+    </style>
+
+
+<nav class="navbar sticky-top shadow">
+    <div class="container-fluid">
+        <button class="navbar-toggler ml-5 border-0 shadow bg-dark" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation" style="margin-left:15px;">
+<div class=" text-light p-2 ">
+     <i class="fa-solid fa-bars fa-xl"></i>
+</div>
+</button>
+        <div>
+            <div class="col-md-12 center-text">
+                <h1 class="center-text"> <strong>Iverson DC</strong>
+                </h1>
+            </div>
+        </div>
+
+        <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+            <div class="offcanvas-header bg-body-tertiary">
+                <img id="logo"  src="images/logo with pic.png">
+            </div>
+            <div class="offcanvas-body">
+
+
+
+                <!-- // navigation side bar buttons -->
+                <ul class=" navbar-nav justify-content-end flex-grow-1 pe-3" role="tablist">
+
+
+                    <li class="nav-item" role="presentation">
+                        <a class="nav-link active" aria-current="page" href="index.html" type="button" role="tab" aria-controls="pills-home" aria-selected="true">
+                            <i class="fa-solid fa-house fa-lg"></i>
+                            <span style="margin-left:23px;">Home</span>
+                        </a>
+                    </li>
+
+                    <li class="nav-item" role="presentation">
+                        <a class="nav-link active" aria-current="page" href="My Character.html" type="button" role="tab" aria-controls="pills-home" aria-selected="true">
+                            <i style="margin-left:3px;" class="fa-solid fa-circle-info"></i>
+                            <span style="margin-left:26px;">My Character</span>
+                        </a>
+                    </li>
+
+                    <li class="nav-item" role="presentation">
+                        <a class="nav-link active" aria-current="page" href="Emotes.html" type="button" role="tab" aria-controls="pills-home" aria-selected="true">
+                            <i style="margin-left:3px;" class="fa-regular fa-face-laugh-squint"></i>
+                            <span style="margin-left:26px;">Emotes</span>
+                        </a>
+                    </li>
+
+                    <!-- <li class="nav-item" role="presentation">
+                        <a class="nav-link active" aria-current="page" href="Sample Website.html" type="button" role="tab" aria-controls="pills-home" aria-selected="true">
+                            <i style="margin-left:3px;" class="fa-solid fa-earth-americas"></i>
+                            <span style="margin-left: 26px;">Sample Website</span>
+                        </a>
+                    </li> -->
+
+                    <li class="nav-item" role="presentation">
+                        <a class="nav-link active" aria-current="page" href="Logo Animations.html" type="button" role="tab" aria-controls="pills-home" aria-selected="true">
+                            <i style="margin-left:3px;" class="fa-solid fa-pen-nib"></i>
+                            <span style="margin-left:26px;">Logos</span>
+                        </a>
+                    </li>
+
+                    <li class="nav-item" role="presentation">
+                        <a class="nav-link active" aria-current="page" href="Illustrations.html" type="button" role="tab" aria-controls="pills-home" aria-selected="true">
+                            <i style="margin-left:3px;" class="fa-solid fa-palette"></i>
+                            <span style="margin-left:26px;"> Artworks</span>
+                        </a>
+                    </li>
+
+                    <li class="nav-item" role="presentation">
+                        <a class="nav-link active" aria-current="page" href="2D.html" type="button" role="tab" aria-controls="pills-home" aria-selected="true">
+                            <i style="margin-left:3px;" class="fa-solid fa-pencil"></i>
+                            <span style="margin-left:26px;">2D Animations</span>
+                        </a>
+                    </li>
+
+                    <li class="nav-item" role="presentation">
+                        <a class="nav-link active" aria-current="page" href="3D.html" type="button" role="tab" aria-controls="pills-home" aria-selected="true">
+                            <i style="margin-left:3px;" class="fa-solid fa-cube"></i>
+                            <span style="margin-left:26px;">3D Models / Animations</span>
+                        </a>
+                    </li>
+
+                    <li class="nav-item" role="presentation">
+                        <a class="nav-link active" aria-current="page" href="Photo.html" type="button" role="tab" aria-controls="pills-home" aria-selected="true">
+                            <i style="margin-left:2px;" class="fa-solid fa-photo-film"></i>
+                            <span style="margin-left:23px;">Photo / Video Edits</span>
+                        </a>
+                    </li>
+
+                    <li class="nav-item" role="presentation">
+                        <a class="nav-link active" aria-current="page" href="Games.html" type="button" role="tab" aria-controls="pills-home" aria-selected="true">
+                            <i style="margin-left:2px;" class="fa-solid fa-gamepad"></i>
+                            <span style="margin-left:23px;">Games</span>
+                        </a>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+    </div>
+</nav>
+
+
+
+<style>
+    * {
+        box-sizing: border-box;
+      }
+      
+      body {
+        margin: 0;
+        font-family: Arial;
+      }
+      
+      /* The grid: Four equal columns that floats next to each other */
+      .column {
+        float: left;
+        width: 25%;
+        padding: 10px;
+      }
+      
+      /* Style the images inside the grid */
+      .column img {
+        opacity: 0.8; 
+        cursor: pointer; 
+      }
+      
+      .column img:hover {
+        opacity: 1;
+      }
+      
+      /* Clear floats after the columns */
+      .row:after {
+        content: "";
+        display: table;
+        clear: both;
+      }
+      
+      /* The expanding image container */
+      .container {
+        position: relative;
+        display: none;
+      }
+      
+      /* Expanding image text */
+      #imgtext {
+        position: absolute;
+        bottom: 15px;
+        left: 15px;
+        color: white;
+        font-size: 20px;
+      }
+      
+      /* Closable button inside the expanded image */
+      .closebtn {
+        position: absolute;
+        top: 10px;
+        right: 15px;
+        color: white;
+        font-size: 35px;
+        cursor: pointer;
+      }
+    
+      div.scroll-container {
+      background-color: #333;
+      overflow: auto;
+      white-space: nowrap;
+      padding: 10px;
+    }
+    
+    div.scroll-container img {
+      padding: 10px;
+    }
+      </style>
+
+
+      <div class="scroll-container">
+        <img id="pad" src="images/Emotes.PNG" style="height:150px" onclick="myFunction(this);">
+        <img id="pad" src="images/Emotes 2.PNG" style="height:150px" onclick="myFunction(this);">
+        <img id="pad" src="images/Emotes3.PNG" style="height:150px" onclick="myFunction(this);">
+        <img id="pad" src="images/Emotes4.PNG" style="height:150px" onclick="myFunction(this);">
+        <img id="pad" src="images/Emotes5.PNG" style="height:150px" onclick="myFunction(this);">
+        <img id="pad" src="images/Emotes6.PNG" style="height:150px" onclick="myFunction(this);">
+        <img id="pad" src="images/Emotes7.PNG" style="height:150px" onclick="myFunction(this);">
+        <img id="pad" src="images/Random shz_20240206205523.PNG" style="height:150px" onclick="myFunction(this);">
+        <img id="pad" src="images/Random shz 3_20240206205201.PNG" style="height:150px" onclick="myFunction(this);">
+        <img id="pad" src="images/Emotes8.PNG" style="height:150px" onclick="myFunction(this);">
+        <img id="pad" src="images/Random shz 2_20240206205036.PNG" style="height:150px" onclick="myFunction(this);">
+      </div>
+      
+      <div class="container">
+        <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+        <img id="expandedImg" style="width:100%">
+        <div id="imgtext"></div>
+      </div>
+      
+      <script>
+      function myFunction(imgs) {
+        var expandImg = document.getElementById("expandedImg");
+        var imgText = document.getElementById("imgtext");
+        expandImg.src = imgs.src;
+        imgText.innerHTML = imgs.alt;
+        expandImg.parentElement.style.display = "block";
+      }
+      </script>
+      
+      </body>
+      <script type="text/javascript" src="js/bootstrap.bundle.min.js"></script>
+      </html>

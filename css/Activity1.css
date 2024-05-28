@@ -1,0 +1,82 @@
+body {
+    background-image: url("Web\ bg.png");
+    background-repeat: no-repeat;
+    }
+
+#head {
+    font-size: 100px;
+    position: relative;
+    left: 200px;
+}
+
+#header {
+    font-size: 50px;
+    text-indent: 140px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#name {
+    font-size: 20px;
+    text-indent: 140px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#indent {
+    text-indent: 80px;
+}
+
+#link1 {
+    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: smaller;
+    text-indent: 100px;
+}
+
+#link2 {
+    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: smaller;
+    text-indent: 730px;
+}
+
+#link4 {
+    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+}
+
+#promolinks {
+    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+}
+
+#img1 {
+    width: 548px;
+    position: absolute;
+    left: 55px; 
+    top: 5px;
+}
+
+#img2 {
+    width: 540px;
+    position: absolute; 
+    left: 690px; 
+}
+
+#img3 {
+    width: 850px;
+    position: relative; 
+    left: 40px; 
+}
+
+#img4 {
+    width: 339px;
+    position: absolute; 
+    left: 900px;
+}
+
+#font {
+    font-size: 13px;
+    font-family: Courier;
+}

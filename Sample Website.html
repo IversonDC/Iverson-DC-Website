@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Violet Evergarden</title>
+
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/fontsawesome/css/all.min.css">
+    <script type="text/javascript" src="js/jquery-min.js"></script>
+    <script type="text/javascript" src="js/popper.min.js"></script>
+</head>
+<body>
+
+    <style>
+        .navbar {
+            height: 100px;
+            background-color: rgb(172, 157, 185);
+        }
+        
+        #offcanvasNavbar {
+            width: 280px;
+            background-color: rgb(236, 228, 236);
+        }
+        
+        .inline {
+            display: inline-block
+        }
+        
+        .center-text {
+            text-align: center;
+            font-family: 'Courier New', Courier, monospace;
+        }
+        
+        .margin-top-20 {
+            margin-top: 20px;
+        }
+
+        #logo{
+            width: 220px;
+        }
+
+        #note{
+            font-size: 80%;
+            margin-bottom: -3%;
+        }
+    </style>
+
+
+    <nav class="navbar sticky-top shadow">
+        <div class="container-fluid">
+            <button class="navbar-toggler ml-5 border-0 shadow bg-dark" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation" style="margin-left:15px;">
+    <div class=" text-light p-2 ">
+         <i class="fa-solid fa-bars fa-xl"></i>
+    </div>
+  </button>
+            <div>
+                <div class="col-md-12 center-text">
+                    <h1 class="center-text"><b>Violet Evergarden</b> </h1>
+                </div>
+            </div>
+
+            <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                <div class="offcanvas-header bg-body-tertiary">
+                    <img id="logo" src="images/logo with pic.png">
+                </div>
+                <div class="offcanvas-body">
+
+
+
+                    <!-- navigation side bar buttons -->
+                    <ul class=" navbar-nav justify-content-end flex-grow-1 pe-3" role="tablist">
+
+
+                        <li class="nav-item" role="presentation">
+                            <a class="nav-link active" aria-current="page" href="index.html" type="button" role="tab" aria-controls="pills-home" aria-selected="true">
+                                <i class="fa-solid fa-house fa-lg"></i>
+                                <span style="margin-left:23px;">Home</span>
+                            </a>
+                        </li>
+
+                        <li class="nav-item" role="presentation">
+                            <a class="nav-link active" aria-current="page" href="My Character.html" type="button" role="tab" aria-controls="pills-home" aria-selected="true">
+                                <i style="margin-left:3px;" class="fa-solid fa-circle-info"></i>
+                                <span style="margin-left:26px;">My Character</span>
+                            </a>
+                        </li>    
+    
+                        <li class="nav-item" role="presentation">
+                            <a class="nav-link active" aria-current="page" href="Emotes.html" type="button" role="tab" aria-controls="pills-home" aria-selected="true">
+                                <i style="margin-left:3px;" class="fa-regular fa-face-laugh-squint"></i>
+                                <span style="margin-left:26px;">Emotes</span>
+                            </a>
+                        </li>
+    
+                        <!-- <li class="nav-item" role="presentation">
+                            <a class="nav-link active" aria-current="page" href="Sample Website.html" type="button" role="tab" aria-controls="pills-home" aria-selected="true">
+                                <i style="margin-left:3px;" class="fa-solid fa-earth-americas"></i>
+                                <span style="margin-left: 26px;">Sample Website</span>
+                            </a>
+                        </li> -->
+    
+                        <li class="nav-item" role="presentation">
+                            <a class="nav-link active" aria-current="page" href="Logo Animations.html" type="button" role="tab" aria-controls="pills-home" aria-selected="true">
+                                <i style="margin-left:3px;" class="fa-solid fa-pen-nib"></i>
+                                <span style="margin-left:26px;">Logos</span>
+                            </a>
+                        </li>
+    
+                        <li class="nav-item" role="presentation">
+                            <a class="nav-link active" aria-current="page" href="Illustrations.html" type="button" role="tab" aria-controls="pills-home" aria-selected="true">
+                                <i style="margin-left:3px;" class="fa-solid fa-palette"></i>
+                                <span style="margin-left:26px;"> Artworks</span>
+                            </a>
+                        </li>
+    
+                        <li class="nav-item" role="presentation">
+                            <a class="nav-link active" aria-current="page" href="2D.html" type="button" role="tab" aria-controls="pills-home" aria-selected="true">
+                                <i style="margin-left:3px;" class="fa-solid fa-pencil"></i>
+                                <span style="margin-left:26px;">2D Animations</span>
+                            </a>
+                        </li>
+    
+                        <li class="nav-item" role="presentation">
+                            <a class="nav-link active" aria-current="page" href="3D.html" type="button" role="tab" aria-controls="pills-home" aria-selected="true">
+                                <i style="margin-left:3px;" class="fa-solid fa-cube"></i>
+                                <span style="margin-left:26px;">3D Models / Animations</span>
+                            </a>
+                        </li>
+    
+                        <li class="nav-item" role="presentation">
+                            <a class="nav-link active" aria-current="page" href="Photo.html" type="button" role="tab" aria-controls="pills-home" aria-selected="true">
+                                <i style="margin-left:2px;" class="fa-solid fa-photo-film"></i>
+                                <span style="margin-left:23px;">Photo / Video Edits</span>
+                            </a>
+                        </li>
+
+                        <li class="nav-item" role="presentation">
+                            <a class="nav-link active" aria-current="page" href="Games.html" type="button" role="tab" aria-controls="pills-home" aria-selected="true">
+                                <i style="margin-left:2px;" class="fa-solid fa-gamepad"></i>
+                                <span style="margin-left:23px;">Games</span>
+                            </a>
+                        </li>
+    
+                        <li class="nav-item" role="presentation">
+                            <a class="nav-link active" aria-current="page" href="My Character.html" type="button" role="tab" aria-controls="pills-home" aria-selected="true">
+                                <i style="margin-left:2px;" class="fa-solid fa-gamepad"></i>
+                                <span style="margin-left:23px;">My Character</span>
+                            </a>
+                        </li>
+    
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+
+<!-- website code -->
+
+<style>
+    body {
+    background-image: url("images/Sample Web/Web\ bg.png");
+    background-repeat: no-repeat;
+    }
+
+#head {
+    font-size: 100px;
+    position: relative;
+    left: 200px;
+}
+
+#header {
+    font-size: 50px;
+    text-indent: 140px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#name {
+    font-size: 20px;
+    text-indent: 140px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#indent {
+    text-indent: 80px;
+}
+
+#link1 {
+    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: smaller;
+    text-indent: 100px;
+}
+
+#link2 {
+    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: smaller;
+    text-indent: 730px;
+}
+
+#link4 {
+    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+}
+
+#promolinks {
+    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+}
+
+#img1 {
+    width: 548px;
+    position: absolute;
+    left: 55px; 
+    top: 5px;
+}
+
+#img2 {
+    width: 540px;
+    position: absolute; 
+    left: 690px; 
+}
+
+#img3 {
+    width: 850px;
+    position: relative; 
+    left: 40px; 
+}
+
+#img4 {
+    width: 339px;
+    position: absolute; 
+    left: 900px;
+}
+
+#font {
+    font-size: 13px;
+    font-family: Courier;
+}
+</style>
+    
+    <h1 id="head"><ins>Violet Evergarden</ins></h1>
+        <div style="position: relative;"><img id="img1" src="images/Sample Web/image 1.png"></div>
+
+        <pre id="font">
+
+
+                                                                                        <strong><ins>Violet Evergarden</ins></strong> <em>(Japanese: ヴァイオレット・エヴァーガーデン, Hepburn: 
+                                                                                    Vaioretto Evāgāden)</em> is a Japanese light novel series written by <strong><ins>Kana Akatsuki</ins></strong> 
+                                                                                    and illustrated by <strong><ins>Akiko Takase</ins></strong>. It was published by <strong>Kyoto Animation</strong> under
+                                                                                    their <em>KA Esuma Bunko imprint</em>, from December 2015 to March 2020. The story 
+                                                                                    follows Violet Evergarden, a young ex-soldier whose recent employment at 
+                                                                                    a postal company tasks her with writing letters that can connect people.
+                        <br>
+                                                                                        A 13-episode anime television series adaptation produced by Kyoto 
+                                                                                    Animation aired between January and April 2018 with several advance screenings 
+                                                                                    taking place in 2017. An original video animation episode was released in 
+                                                                                    July 2018, and a spin-off film premiered in Japan in September 2019. A second 
+                                                                                    anime film,<strong><em> "Violet Evergarden: The Movie"</em></strong>, premiered in September 2020.
+        </pre>
+
+        <p id="link1"><a href="https://pin.it/r4cHWsawL" target="_blank">Source: Violet Evergarden Wallpaper</a></p>
+    
+        <br><br>
+    <p id="indent">--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------</p>
+    
+    
+    <h1 id="header">PLOT</h1>
+        <div style="position: relative;">
+            <img id="img2" src="images/Sample Web/image 2.jpg">
+        </div>
+        <pre id="font">
+
+                There was a machine invented as a prototype for the typewriter, 
+            called <b>Auto Memory Dolls</b>. It was originally made by Professor 
+            Orlando, the authority on letterpress printing and a researcher of 
+            mechanical dolls. His wife, Molly, was a novelist, but she became 
+            blind and could not write anymore. Dr Orlando then created the first 
+            Auto-Memories Doll for her, meant to register everything said by 
+            a human voice.
+        
+                In the present time, the term refers to the industry of writing 
+            for others. The story follows Violet Evergarden's journey of 
+            reintegrating back into society after the war is over as she is 
+            no longer a soldier, and her search for her life's purpose in order 
+            to understand the last words her mentor and guardian, Major Gilbert, 
+            had said to her: <i>"I love you."</i>
+        </pre>
+        <p id="link2"><a href="https://pin.it/1kxnVPZsj" target="_blank">Source: Violet Evergarden: The Movie (Movie Poster) </a></p>
+
+        <br>
+    <p id="indent">--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------</p>
+
+
+
+    <h1 id="header">MAIN CHARACTER</h1>
+    <br>
+
+        <p id="name"><strong><ins>Violet Evergarden</ins></strong>(<u>ヴァイオレット・エヴァーガーデン, Vaioretto Evāgāden</u>) </p>
+        <pre id="font">
+                Violet is a newcomer to the <b><u>CH Postal Company</u></b>, and works as an <i>Auto Memory Doll</i>—a ghostwriter for people who cannot write or are looking 
+            for help expressing their emotions in letters. As an abandoned and nameless child, Violet was found by navy officer <b>Dietfried Bougainvillea</b> 
+            on an island where he and several members of his crew were forced to land after a naval engagement. Her combat prowess was discovered when 
+            she killed several soldiers who attempted to molest her before he could stop them. Violet then stalked and killed all the other crew members. 
+            For reasons he did not understand, Violet spared Dietfried and obeyed his orders. Later, Dietfried brought Violet home and "gave" her to his 
+            brother <b>Gilbert</b> in the military as a gift for his promotion to major, intending for Gilbert to use her as a "tool" for war while not wanting 
+            to handle Violet himself. Gilbert instead treated her as a human, taught her how to speak, read, and write, and named her Violet, wishing she 
+            could grow up to be as beautiful as the flower. During the war, she repeatedly played a vital role in battles. Trying to save Gilbert in the 
+            war's decisive battle, she lost both her arms. With the war over, her arms were replaced with advanced metallic prosthetics, and she decided 
+            to become an Auto Memory Doll to learn the meaning of the words <i><u>"I love you" (愛してる, Aishiteru)</u></i>—Gilbert's last words to her before they 
+            became unconscious in the battlefield.
+
+                In the beginning, she was a girl who needed orders from others and had no sense of autonomy. Later, in the process of getting along with 
+            Gilbert, she slowly learned words, definitions, and meaning. During an outing, she received an emerald brooch that she considered as beautiful 
+            as Gilbert's eye color, and carried it with her all the time, guarding it as her master's proxy. For Violet, Gilbert is both special and 
+            irreplaceable.
+        </pre> <br>
+
+        <div style="position: relative;">
+        <img id="img3" src="images/Sample Web/image 3.jpg">
+        <img id="img4" src="images/Sample Web/image 4.png"> <br>        
+        <pre id="link1"><a href="https://i.ytimg.com/vi/vpQ0snoj3E4/maxresdefault.jpg" target="_blank">Source: Violet Evergarden (2018) </a>                                                                                                                                                                             <a id="link4" href="https://images.app.goo.gl/fBqiTBXQqd3RwE7b6" target="_blank">Source: Violet Evergarden Illustration</a></pre>
+    <p id="indent">--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------</p>
+    
+    <h1 id="header">LINKS</h1>
+
+
+    <details>
+        <summary>External Links</summary>
+        <p id="promolinks"><ul>
+            <li><a href="http://www.kyotoanimation.co.jp/books/violet/" target="_blank">  Violet Evergarden Official Website </a></li><br>
+            <li><a href="https://www.imdb.com/title/tt7078180/" target="_blank">  Violet Evergarden (Anime Television Series) </a></li><br>
+            <li><a href="http://violet-evergarden.jp/" target="_blank">  Violet Evergarden Anime Official Website </a></li><br>
+            </ul>
+        </p>
+    </details>
+    <br>
+
+    <details>
+        <summary>Official Trailers and Promotional Videos...</summary>
+        <p id="promolinks"><ul>
+            <li><a href="https://www.youtube.com/watch?v=0CJeDetA45Q" target="_blank">  Violet Evergarden CM </a></li><br>
+            <li><a href="https://www.youtube.com/watch?v=yuQA5_O0RxE" target="_blank">  Violet Evergarden CM 2 </a></li><br>
+            <li><a href="https://www.youtube.com/watch?v=_grmduuECm4" target="_blank">  Violet Evergarden Netflix Trailer </a></li><br>
+            <li><a href="https://www.youtube.com/watch?v=CcJvT_aiKMA" target="_blank">  Violet Evergarden – Eternity and the Auto Memory Doll Promo Video</a></li><br>            
+            <li><a href="https://www.youtube.com/watch?v=BUfSen2rYQs" target="_blank">  Violet Evergarden: The Movie | Official Trailer </a></li><br>
+            <li><a href="https://www.youtube.com/watch?v=ZEaYOI8_18I" target="_blank">  Violet Evergarden: The Movie | Official Trailer 2 </a></li><br>
+        </p>
+    </details>
+    
+    <br> <br> <br> 
+
+</body>
+
+    <script type="text/javascript" src="js/bootstrap.bundle.min.js"></script>
+
+</html>
